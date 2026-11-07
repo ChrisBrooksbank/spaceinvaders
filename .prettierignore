@@ -1,0 +1,7 @@
+node_modules
+dist
+package-lock.json
+PROMPT_*.md
+IMPLEMENTATION_PLAN.md
+AGENTS.md
+specs
