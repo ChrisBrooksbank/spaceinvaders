@@ -41,6 +41,7 @@ Open the URL Vite prints (usually <http://localhost:5173>).
 | `←` `→` or `A` `D` | Move your cannon |
 | `Space`            | Fire             |
 | `Enter`            | Start / restart  |
+| `M`                | Mute / unmute    |
 
 ### Rules of engagement
 
@@ -48,6 +49,7 @@ Open the URL Vite prints (usually <http://localhost:5173>).
 - **Score:** 🟣 top row = **30**, 🔵 middle rows = **20**, 🟢 bottom rows = **10**.
 - **4 destructible shields** erode from both your shots and theirs, so use them wisely.
 - Invaders **speed up as their numbers dwindle**, just like the original.
+- **Sound, synthesised live** with the Web Audio API (no audio files): the four-note descending bass march that quickens as invaders die, plus laser, explosion and game-over effects. Press `M` to mute.
 - Clear the wave and the next one starts **faster**.
 - You lose if your lives run out **or** the invaders reach the ground.
 - Your **high score is saved** in `localStorage`.

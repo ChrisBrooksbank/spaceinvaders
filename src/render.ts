@@ -108,6 +108,7 @@ export function render(ctx: CanvasRenderingContext2D, state: GameState): void {
     drawCenteredText(ctx, 'SPACE INVADERS', FIELD_HEIGHT / 2 - 20, 32);
     drawCenteredText(ctx, 'Press ENTER to start', FIELD_HEIGHT / 2 + 20);
     drawCenteredText(ctx, 'Arrows / A D move, SPACE fires', FIELD_HEIGHT / 2 + 50);
+    drawCenteredText(ctx, 'M mutes sound', FIELD_HEIGHT / 2 + 80);
   } else if (state.phase === 'gameover') {
     drawOverlay(ctx);
     drawCenteredText(ctx, 'GAME OVER', FIELD_HEIGHT / 2 - 40, 32);

@@ -23,4 +23,4 @@ Bullets hit things, and hits change score, lives, and the shields.
 
 ## Out of Scope
 
-- Sound effects
+- Sound assets (all audio is synthesised with Web Audio; see src/audio.ts)
