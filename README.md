@@ -9,6 +9,8 @@
 ![Tests](https://img.shields.io/badge/tests-81%20passing-brightgreen?logo=vitest&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
+**[▶ Play it live: spaceinvaders-cb-arcade.netlify.app](https://spaceinvaders-cb-arcade.netlify.app)**
+
 <img src="docs/gameplay.gif" alt="Gameplay: a bot clears invaders while shields erode" width="360" />
 
 _Gameplay captured from this very build: shields crumbling, invaders marching, lives ticking down._
@@ -18,6 +20,10 @@ _Gameplay captured from this very build: shields crumbling, invaders marching, l
 ---
 
 ## Play it
+
+**Right now, in your browser: <https://spaceinvaders-cb-arcade.netlify.app>**
+
+Or run it locally:
 
 ```bash
 git clone https://github.com/ChrisBrooksbank/spaceinvaders.git
